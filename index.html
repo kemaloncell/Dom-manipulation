@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Dom Manipulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Javascript Dom Manipulation</h1>
+    <div class="container">
+      <div class="left">
+        <table cellpadding="10px" cellspacing="5px">
+          <tr>
+            <td>Div Width</td>
+            <td><input type="text" id="widthInput" placeholder="e.g: 200" /></td>
+          </tr>
+          <tr>
+            <td>Div Height</td>
+            <td><input type="text" id="heightInput" placeholder="e.g: 200" /></td>
+          </tr>
+          <tr>
+            <td>Div Color</td>
+            <td>
+              <select name="" id="back_color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+                <option value="green">Green</option>
+                <option value="tomato">Tomato</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Frame Thickness</td>
+            <td>
+              <select name="" id="thickness">
+                <option value="1px">1px</option>
+                <option value="3px">3px</option>
+                <option value="5px">5px</option>
+                <option value="10px">10px</option>
+                <option value="15px">15px</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Frame Type</td>
+            <td>
+              <select name="" id="type">
+                <option value="solid">Solid</option>
+                <option value="dotted">Dotted</option>
+                <option value="dashed">Dashed</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Frame Color</td>
+            <td>
+              <select name="" id="frame_color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Margin Value</td>
+            <td><input type="text" id="external_space" placeholder="e.g: 200" /></td>
+          </tr>
+          <tr>
+            <td>Padding Value</td>
+            <td><input type="text" id="inner_space" placeholder="e.g: 200" /></td>
+          </tr>
+          <tr>
+            <td>Rotate Value</td>
+            <td><input type="text" id="rotateInput" placeholder="e.g: 200" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button type="submit" id="created">Send</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="rightDiv">CREATED DIV</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
